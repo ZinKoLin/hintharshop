@@ -1,0 +1,16 @@
+[04-Jan-2023 12:09:40 America/New_York] PHP Warning:  require(/home/hintpgne/public_html/vendor/composer/../laminas/laminas-diactoros/src/functions/create_uploaded_file.php): Failed to open stream: No such file or directory in /home/hintpgne/public_html/vendor/composer/autoload_real.php on line 53
+[04-Jan-2023 12:09:40 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hintpgne/public_html/vendor/composer/../laminas/laminas-diactoros/src/functions/create_uploaded_file.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hintpgne/public_html/vendor/composer/autoload_real.php:53
+Stack trace:
+#0 /home/hintpgne/public_html/vendor/composer/autoload_real.php(36): composerRequire9dde56c9efe9c3db96f288cf34cd0211()
+#1 /home/hintpgne/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9dde56c9efe9c3db96f288cf34cd0211::getLoader()
+#2 /home/hintpgne/public_html/index.php(23): require('/home/hintpgne/...')
+#3 {main}
+  thrown in /home/hintpgne/public_html/vendor/composer/autoload_real.php on line 53
+[04-Jan-2023 12:09:42 America/New_York] PHP Warning:  require(/home/hintpgne/public_html/vendor/composer/../mtdowling/jmespath.php/src/JmesPath.php): Failed to open stream: No such file or directory in /home/hintpgne/public_html/vendor/composer/autoload_real.php on line 53
+[04-Jan-2023 12:09:42 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hintpgne/public_html/vendor/composer/../mtdowling/jmespath.php/src/JmesPath.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hintpgne/public_html/vendor/composer/autoload_real.php:53
+Stack trace:
+#0 /home/hintpgne/public_html/vendor/composer/autoload_real.php(36): composerRequire9dde56c9efe9c3db96f288cf34cd0211()
+#1 /home/hintpgne/public_html/vendor/autoload.php(12): ComposerAutoloaderInit9dde56c9efe9c3db96f288cf34cd0211::getLoader()
+#2 /home/hintpgne/public_html/index.php(23): require('/home/hintpgne/...')
+#3 {main}
+  thrown in /home/hintpgne/public_html/vendor/composer/autoload_real.php on line 53
